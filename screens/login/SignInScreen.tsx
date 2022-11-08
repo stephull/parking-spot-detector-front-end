@@ -3,7 +3,7 @@ import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
 import { fetchUserThunk } from "../../redux/user/userSlice";
 
 import { StyleSheet, Image } from "react-native";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { LoginStatus } from "../../redux/user";
 import {
   Box,

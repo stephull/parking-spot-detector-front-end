@@ -23,6 +23,7 @@ import SignInScreen from "../screens/login/SignInScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import RegisterScreen from "../screens/login/Register";
 import MarkerInfoScreen from "../screens/MarkerInfoScreen";
+import CameraFrameScreen from '../screens/CameraFrameScreen';
 
 import {
   RootStackParamList,
@@ -32,6 +33,7 @@ import {
 import LinkingConfiguration from "./LinkingConfiguration";
 import CreateParkingAreaScreen from "../screens/CreateParkingAreaScreen";
 import ParkingMapView from "../components/ParkingMapView";
+import CustomWebView from "../components/CustomWebView";
 
 export default function Navigation({
   colorScheme,
@@ -86,6 +88,12 @@ function RootNavigator() {
         component={MarkerInfoScreen}
         initialParams={{ parkingData: {} }}
         options={{ title: "Marker Information" }}
+      />
+      <Stack.Screen
+        name="CustomWebView"
+        component={CustomWebView}
+        initialParams={{ url: "" }}
+        options={{ title: "Test WebView" }} 
       />
       <Stack.Group screenOptions={{ presentation: "modal" }}>
         <Stack.Screen name="Modal" component={ModalScreen} />
@@ -155,6 +163,14 @@ function BottomTabNavigator() {
         options={{
           title: "Navigation",
           tabBarIcon: ({ color }) => <TabBarIcon name="map" color={color} />,
+        }}
+      />
+      <BottomTab.Screen 
+        name="TabFour"
+        component={CameraFrameScreen}
+        options={{
+          title: 'Feed',
+          tabBarIcon: ({ color }) => <TabBarIcon name="camera" color={color}/>,
         }}
       />
     </BottomTab.Navigator>

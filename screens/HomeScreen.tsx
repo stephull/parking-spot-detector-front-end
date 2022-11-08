@@ -15,7 +15,7 @@ import ParkingMapView from "../components/ParkingMapView";
 
 import * as Device from "expo-device";
 import * as Notifications from "expo-notifications";
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Platform } from "react-native";
 import { Subscription } from "expo-modules-core";
 import { Parking } from "../redux/parking/index";

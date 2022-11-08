@@ -164,7 +164,6 @@ const ParkingMapView = () => {
                 mt="2"
                 colorScheme="purple"
                 onPress={() => {
-                  console.log(selectedMarkerProps);
                   navigation.navigate("MarkerInfo", {
                     parkingData: selectedMarkerProps,
                   });
