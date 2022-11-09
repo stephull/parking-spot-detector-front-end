@@ -11,8 +11,6 @@ import { useAppDispatch, useAppSelector } from "../hooks/hooks";
 import { RootTabScreenProps } from "../types";
 import ParkingMapView from "../components/ParkingMapView";
 
-/* IF YOU'RE READING THIS, THIS IS WHAT YOU SEE FROM MAPVIEW */
-
 import * as Device from "expo-device";
 import * as Notifications from "expo-notifications";
 import { useState, useEffect, useRef } from "react";
