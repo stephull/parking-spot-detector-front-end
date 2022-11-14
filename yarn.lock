@@ -4851,10 +4851,10 @@ expo-eas-client@~0.3.0:
     "find-up" "^5.0.0"
     "fs-extra" "^9.1.0"
 
-"expo-modules-core@0.11.8":
-  "integrity" "sha512-goC2ghZFVaV6nXEbk+kz9oKnQmqW8fHVUCSPxC0QXhV0ay1dA9Ki6qqMPagkBJUPAz89NsNqW3bYR6DFXq7lvA=="
-  "resolved" "https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-0.11.8.tgz"
-  "version" "0.11.8"
+"expo-modules-core@0.11.9":
+  "integrity" "sha512-6AlOE4KHN3/WWbY8hH7W6ceuIFj0qbk1N+UhmMhiCEUas3NvXA6wcH3xjO+8JZ+BRcIB9M4QEeX72j6vDDuExg=="
+  "resolved" "https://registry.npmjs.org/expo-modules-core/-/expo-modules-core-0.11.9.tgz"
+  "version" "0.11.9"
   dependencies:
     "compare-versions" "^3.4.0"
     "invariant" "^2.2.4"
@@ -4923,10 +4923,10 @@ expo-splash-screen@~0.16.2:
   "resolved" "https://registry.npmjs.org/expo-updates-interface/-/expo-updates-interface-0.7.0.tgz"
   "version" "0.7.0"
 
-"expo-updates@~0.14.6":
-  "integrity" "sha512-JmE3nsbL8cUAV2slhIqqNIG+jEYCJJvPzSYcUBd15s0sg0xxRbasNaEfnSIrYtZMjhl/YNwMgQzUkU6C2NtXyg=="
-  "resolved" "https://registry.npmjs.org/expo-updates/-/expo-updates-0.14.6.tgz"
-  "version" "0.14.6"
+"expo-updates@~0.14.7":
+  "integrity" "sha512-xzRvsv45TfIYJ4arTMiorAci4LvUQvpBJx0llJcdCFLWGcoj59roi48ldtDTwkgQAGjDP/Oyysd3zTyvpwxjYg=="
+  "resolved" "https://registry.npmjs.org/expo-updates/-/expo-updates-0.14.7.tgz"
+  "version" "0.14.7"
   dependencies:
     "@expo/code-signing-certificates" "0.0.2"
     "@expo/config" "~7.0.1"
@@ -4948,10 +4948,10 @@ expo-splash-screen@~0.16.2:
   dependencies:
     "compare-urls" "^2.0.0"
 
-"expo@*", "expo@^46.0.16":
-  "integrity" "sha512-lZETkf3t+gbZjKjSceIpU7I8Rmm5nZ0ZG1WPzNBBbm+k64/+kKV96s6RqS37W1TTDpIbd+AucT9kKpvtv0JB2A=="
-  "resolved" "https://registry.npmjs.org/expo/-/expo-46.0.16.tgz"
-  "version" "46.0.16"
+"expo@*", "expo@^46.0.17":
+  "integrity" "sha512-rB+KMvjU3lFMkec5LcVFFn0Q2iJUEIoyB9TckKMirA15H5mW4yZMao0ilR7239fJ5ytVoDC8SIf7ZAvTmiMuMw=="
+  "resolved" "https://registry.npmjs.org/expo/-/expo-46.0.17.tgz"
+  "version" "46.0.17"
   dependencies:
     "@babel/runtime" "^7.14.0"
     "@expo/cli" "0.3.2"
@@ -4965,7 +4965,7 @@ expo-splash-screen@~0.16.2:
     "expo-font" "~10.2.1"
     "expo-keep-awake" "~10.2.0"
     "expo-modules-autolinking" "0.10.3"
-    "expo-modules-core" "0.11.8"
+    "expo-modules-core" "0.11.9"
     "fbemitter" "^3.0.0"
     "getenv" "^1.0.0"
     "invariant" "^2.2.4"
